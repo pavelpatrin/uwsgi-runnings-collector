@@ -10,7 +10,7 @@ This is useful for early problems detection: something happens and requests hang
 
 2. Compile collector shared library
 
-```bash
+```sh
 gcc `./uwsgi --cflags` -std=c99 -shared -fPIC -o runnings_collector.so runnings_collector.c
 ```
 
